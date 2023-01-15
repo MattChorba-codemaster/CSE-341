@@ -8,6 +8,6 @@ const myController = require('../controllers');
 
 routes.get('/', myController.awesomeFunction);
 routes.get('/awesome', myController.returnAnotherPerson);
-routes.get('/mongoData', myController.getMongoData);
+routes.get('/contacts', myController.getMongoData);
 
 module.exports = routes;
