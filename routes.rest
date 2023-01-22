@@ -1,0 +1,40 @@
+# GET http://localhost:3000 HTTP/1.1
+
+# GET http://localhost:3000/awesome HTTP/1.1
+
+# GET https://cse341test1.onrender.com/awesome HTTP/1.1
+
+# GET http://localhost:3000/contacts HTTP/1.1
+
+# GET All Contacts 
+# GET https://cse341test1.onrender.com/contacts
+
+# # GET Contact by ID 
+# GET https://cse341test1.onrender.com/contacts/63c34c6972c9bcf6024e1109
+
+# CREATE Contact
+# POST https://cse341test1.onrender.com/contacts HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "firstName":"Toni",
+#     "lastName":"Chorba",
+#     "email":"tonirose1949@gmail.com",
+#     "favoriteColor":"Purple",
+#     "birthday":"07/18/1949"
+# }
+
+# # PUT Contact
+# PUT https://cse341test1.onrender.com/contacts/63c34c6972c9bcf6024e1109 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "firstName":"Mike",
+#     "lastName":"Chorba",
+#     "email":"MChorba@gmail.com",
+#     "favoriteColor":"Grey",
+#     "birthday":"09/11/1974"
+# }
+
+# # DELETE Contact
+# DELETE https://cse341test1.onrender.com/contacts/63c34b6772c9bcf6024e1108 HTTP/1.1
