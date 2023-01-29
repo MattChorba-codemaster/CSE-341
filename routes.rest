@@ -13,8 +13,7 @@
 # GET https://cse341test1.onrender.com/contacts/63c34c6972c9bcf6024e1109
 
 # CREATE Contact
-# POST https://cse341test1.onrender.com/contacts HTTP/1.1
-# Content-Type: application/json
+# POST https://cse341test1.onrender.com/contacts HTTP/1.1 Content-Type: application/json
 
 # {
 #     "firstName":"Toni",
@@ -24,17 +23,17 @@
 #     "birthday":"07/18/1949"
 # }
 
-# # PUT Contact
-# PUT https://cse341test1.onrender.com/contacts/63c34c6972c9bcf6024e1109 HTTP/1.1
-# Content-Type: application/json
+# # # PUT Contact
+PUT https://cse341test1.onrender.com/contacts/63c34c6972c9bcf6024e1109 HTTP/1.1 
+Content-Type: application/json
 
-# {
-#     "firstName":"Mike",
-#     "lastName":"Chorba",
-#     "email":"MChorba@gmail.com",
-#     "favoriteColor":"Grey",
-#     "birthday":"09/11/1974"
-# }
+{
+    "firstName":"Mike",
+    "lastName":"Chorba",
+    "email":"MChorba@gmail.com",
+    "favoriteColor":"Grey",
+    "birthday":"09/11/1974"
+}
 
 # # DELETE Contact
-# DELETE https://cse341test1.onrender.com/contacts/63c34b6772c9bcf6024e1108 HTTP/1.1
+# DELETE https://cse341test1.onrender.com/contacts/63cca7fcaaa23af10c244684 HTTP/1.1
