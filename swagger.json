@@ -2,10 +2,10 @@
     "swagger": "2.0",
     "info": {
       "title": "My API",
-      "description": "Contacts API",
+      "description": "WLA Tracker API",
       "version": "1.0.0"
     },
-    "host": "cse341test1.onrender.com",
+    "host": "https://wlatracker.onrender.com",
     "basePath": "/",
     "schemes": [
       "https"
@@ -18,7 +18,7 @@
           "responses": {}
         }
       },
-      "/contacts/": {
+      "/students/": {
         "get": {
           "description": "",
           "produces": [
@@ -49,10 +49,10 @@
                   "email": {
                     "example": "any"
                   },
-                  "favoriteColor": {
+                  "birthday": {
                     "example": "any"
                   },
-                  "birthday": {
+                  "studentLevel": {
                     "example": "any"
                   }
                 }
@@ -69,7 +69,7 @@
           }
         }
       },
-      "/contacts/{id}": {
+      "/students/{id}": {
         "get": {
           "description": "",
           "produces": [
@@ -113,10 +113,10 @@
                   "email": {
                     "example": "any"
                   },
-                  "favoriteColor": {
+                  "birthday": {
                     "example": "any"
                   },
-                  "birthday": {
+                  "studentLevel": {
                     "example": "any"
                   }
                 }

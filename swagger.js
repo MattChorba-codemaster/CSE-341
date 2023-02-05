@@ -3,9 +3,9 @@ const swaggerAutogen = require('swagger-autogen')();
 // const doc = {
 //   info: {
 //     title: 'My API',
-//     description: 'Contacts API'
+//     description: 'WLA Tracker API'
 //   },
-//   host: 'cse341-instructor.herokuapp.com',
+//   host: 'https://wlatracker.onrender.com',
 //   schemes: ['https']
 // };
 
